@@ -1,0 +1,58 @@
+body{
+     background:linear-gradient(to right, grey, rgb(62, 60, 94));
+}
+
+.header{
+    text-align: center;
+}
+
+.header span{
+    color: crimson;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6rem;
+    transition: 500ms;
+
+}
+
+.selection:hover{
+    transform: scale(1.5);
+    
+}
+
+.results{
+    margin: 3rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: xxx-large;
+}
+
+.result-section{
+    margin-left: .1rem;
+    font-size:xx-large;
+    color: white;
+}
+
+.result-settle{
+    opacity: .5;
+    font-size: 2rem ;
+}
+
+.result-settle.winner{
+    opacity: 1;
+    font-size: 4rem ;
+}
